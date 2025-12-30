@@ -22,20 +22,20 @@ import nltk
 from nltk.tokenize import sent_tokenize
 
 # --- NLTK (si besoin) ---
-nltk.data.path.append("D:/CODING/.params/nltk_data")
+nltk.data.path.append("C:/PYTHON/.params/nltk_data")
 # nltk.download('punkt', force=True)
 
 # =========================
 # VARIABLES
 # =========================
-nom_fichier_source = "D:/CODING/.entree/stiegler.mp4"
+nom_fichier_source = "C:/PYTHON/.entree/stiegler.mp4"
 
 # fichiers temporaires
-fichier_audio_extrait = "D:/CODING/.data/_tmp_extrait.wav"         # si vidéo
-fichier_sortie_audio = "D:/CODING/.data/_tmp_16k_mono.wav"         # wav 16k mono
-fichier_sortie_audio_clean = "D:/CODING/.data/_tmp_clean.wav"      # wav nettoyé (ffmpeg)
-fichier_sortie_texte = "D:/CODING/.data/transcript.txt"            # sortie finale en phrases
-fichier_sortie_segments = "D:/CODING/.data/transcript_segments.txt"  # sortie debug segments
+fichier_audio_extrait = "C:/PYTHON/.data/_tmp_extrait.wav"         # si vidéo
+fichier_sortie_audio = "C:/PYTHON/.data/_tmp_16k_mono.wav"         # wav 16k mono
+fichier_sortie_audio_clean = "C:/PYTHON/.data/_tmp_clean.wav"      # wav nettoyé (ffmpeg)
+fichier_sortie_texte = "C:/PYTHON/.data/transcript.txt"            # sortie finale en phrases
+fichier_sortie_segments = "C:/PYTHON/.data/transcript_segments.txt"  # sortie debug segments
 
 # langues
 langue_token = "french"   # pour nltk
