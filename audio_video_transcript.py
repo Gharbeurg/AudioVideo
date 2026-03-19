@@ -28,7 +28,7 @@ nltk.data.path.append("C:/PYTHON/.params/nltk_data")
 # =========================
 # VARIABLES
 # =========================
-nom_fichier_source = "C:/PYTHON/.entree/stiegler.mp4"
+nom_fichier_source = "C:/PYTHON/.entree/podcast.m4a"
 
 # fichiers temporaires
 fichier_audio_extrait = "C:/PYTHON/.data/_tmp_extrait.wav"         # si vidéo
